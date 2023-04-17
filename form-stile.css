@@ -1,0 +1,105 @@
+#name {
+    background-color:
+     rgb(52, 180, 27);
+    }
+#Drive-expertion {
+    background-color: blue;
+}
+#email {
+    background-color: aquamarine;
+}
+* {color: blueviolet; }
+fieldset {width: 20%;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+* {
+      box-sizing: border-box;
+  }
+
+  label + input:focus {
+      background-color: antiquewhite;
+  }
+  
+input[type='text'],
+input[type='email'],
+input[type='datetime-local'] {
+      min-width: 50%;
+  }
+legend {
+      font-size: 25px;
+      text-align: center;
+  }
+select {
+      min-width: 50%;
+  }
+select > option {
+      font-size: 20px;
+  }
+textarea {
+      min-width: 50%;
+  }
+button {
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 25px;
+  }
+textarea:focus,
+select:focus {
+      background-color: antiquewhite;
+  }
+#container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+fieldset {
+      min-width: 25%;
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  
+.input-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+.textarea-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+  }
+.check-container {
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+.radio-container {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+  }
+.btn-container {
+      min-width: 200px;
+      max-width: 300px;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-around;
+  } 
+datalist {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+  }
+option {
+      padding: 0;
+  }
+input[type='range'] {
+      width: 200px;
+      margin: 0;
+  }

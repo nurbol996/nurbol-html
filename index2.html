@@ -1,124 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stile3.css">
-    <title>auto shop</title>
-</head>
-<body>
-    <h1>From Example</h1>
-    <form>
-        Home
-        <fieldset>
-            <select>
-            <legend>Personal_info</legend>
-            <div>
-                <label for="name" >First Name</label>  
-                <input autofocus id="name" placeholder="?" />
-            </div>
-    <div>
-        <label for="surname" >Last Name</label>  
-        <input  id="surname" placeholder="?" />
-    </div>
-    <div>
-        <label for="date" >Birthday</label>  
-        <input type="date">
-    </div>
-    <div>
-        <legend>general</legend>
-        <label for="male">male</label>
-        <input type="radio" id="male" value="male" name="color">
-       
-    </div>
-    <div> 
-        <label for="famale">famale</label>
-        <input type="radio" value="famale" name="color">
-    </div>
-</select>
-           
-<label for="Drive expertion">Drive expertion</label>  
-<select name="Drive expertion" id="Drive-expertion">
-    <option value="______________">______________</option>
-</select>
-</fieldset>
-
-        <fieldset>
-        <legend>Contacts</legend>
-        <label for="email" >email</label>  
-                <input type="email" id="email">
-                
-                <div>
-                    <label for="phone" >phone</label>  
-                    <input type="number" id="phone">
-                </div>
-
-        <div>
-            <label for="address" >address</label>  
-            <input type="text" id="address" placeholder="???" />
-        </div>
-
-        </fieldset>
-            
-        <fieldset>
-            <legend>car info</legend>
-           
-           
-            <label for="brend">brend</label>  
-            <select name="brend" id="brend">
-                <option value="____">_____</option>
-                <option value="Ford">Ford</option>
-                <option value="Toyota">Toyota</option>
-                <option value="BMW">BWM</option>
-            </select>
-           
-            <label for="Model">Model</label>  
-            <select name="Model" id="Model">
-                <option value="____">_____</option>
-                <option value="Camry">camry</option>
-                <option value="rav4">rav4</option>
-                <option value="mondeo 4">mondeo4</option>
-            </select>
-            <div>
-                <label for="Used" >Used</label> 
-                <input type="checkbox">
-            </div>
-            
-          
-            <legend>color</legend>
-            <label for="red">red</label>
-            <input type="radio" id="red" value="red" name="color">
-           
-        </div>
-        <div> 
-            <label for="Blue">Blue</label>
-            <input type="radio" id= "blue" value="Blue" name="color">
-        </div>
-        <div>
-        <label for="Where">Where</label>
-        <input type="radio" id="where" value="Where" name="color">
-       
-    </div>
-    <div> 
-        <label for="Grey">Grey</label>
-        <input type="radio" value="Grey" name="color">
-    </div>
-    <div> 
-    <label for="Grey">Price</label>
-    <input type="range">
-</div>
-            </fieldset>
-            <input type="button" value="canel">
-            <input type="button" value="ok">
-
-       
-   
-    
-   
-   
-    
-
-</form>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="form-stile.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form>
+			<div id="container">
+				<fieldset>
+					<legend>Personal info</legend>
+					<div class="input-container">
+						<label for="user-name">First Name</label>
+						<input type="text" id="user-name" tabindex="1" />
+					</div>
+					<div class="input-container">
+						<label for="user-last-name">Last Name</label>
+						<input type="text" id="user-last-name" />
+					</div>
+					<div class="input-container">
+						<label for="birthday">Birthday</label>
+						<input
+							type="datetime-local"
+							id="birthday"
+							tabindex="2" />
+					</div>
+					<div class="input-container">
+						<span>Gender</span>
+						<div>
+							<label for="male">Male</label>
+							<input type="radio" name="gender" id="male" />
+						</div>
+						<div>
+							<label for="female">Female</label>
+							<input type="radio" name="gender" id="female" />
+						</div>
+					</div>
+					<div class="input-container">
+						<label for="experience">Drive experience</label>
+						<select name="experience" id="experience" tabindex="3">
+							<option value="---">---</option>
+							<option value="expert">expert</option>
+							<option value="more-10">more than 10</option>
+							<option value="5-10">5-10</option>
+							<option value="2-5">2-5</option>
+							<option value="less-2">less than 2</option>
+							<option value="beginner">beginner</option>
+						</select>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Contacts</legend>
+					<div class="input-container">
+						<label for="email">Email</label>
+						<input type="email" tabindex="4" id="email" />
+					</div>
+					<div class="input-container">
+						<label for="phone">Phone</label>
+						<input type="text" id="phone" />
+					</div>
+					<div class="textarea-container">
+						<label for="address">Address</label>
+						<textarea id="address" name="address"> </textarea>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Car info</legend>
+					<div class="input-container">
+						<label for="brand">Brand</label>
+						<select name="brand" id="brand" tabindex="5">
+							<option value="---">---</option>
+							<option value="ford">Ford</option>
+							<option value="toyota">Toyota</option>
+							<option value="bmw">BMW</option>
+						</select>
+					</div>
+					<div class="input-container">
+						<label for="model">Model</label>
+						<select name="model" id="model">
+							<option value="---">---</option>
+							<option value="mondeo">Mondeo 4</option>
+							<option value="fiesta">Fiesta 1.0</option>
+							<option value="rav">RAV 4</option>
+							<option value="camry">Camry</option>
+							<option value="x5">X5</option>
+							<option value="i4">i4</option>
+						</select>
+					</div>
+					<div class="check-container">
+						<label for="used">Used</label>
+						<input type="checkbox" id="used" />
+					</div>
+					<span>Color</span>
+					<div class="radio-container">
+						<div>
+							<label for="red">Red</label>
+							<input type="radio" name="color" id="red" />
+						</div>
+						<div>
+							<label for="black">Black</label>
+							<input type="radio" name="color" id="black" />
+						</div>
+						<div>
+							<label for="blue">Blue</label>
+							<input type="radio" name="color" id="blue" />
+						</div>
+						<div>
+							<label for="white">White</label>
+							<input type="radio" name="color" id="white" />
+						</div>
+						<div>
+							<label for="grey">Grey</label>
+							<input type="radio" name="color" id="grey" />
+						</div>
+					</div>
+					<div id="range">
+						<label for="price">Price</label><br />
+						<input
+							type="range"
+							id="price"
+							name="price"
+							min="10"
+							max="100"
+							step="10"
+							list="money" />
+						<datalist id="money">
+							<option value="10" label="10"></option>
+							<option value="20" label="20"></option>
+							<option value="30" label="30"></option>
+							<option value="40" label="40"></option>
+							<option value="50" label="50"></option>
+							<option value="60" label="60"></option>
+							<option value="70" label="70"></option>
+							<option value="80" label="80"></option>
+                            <option value="90" label="90"></option>
+                            <option value="100" label="100"></option>
+						</datalist>
+					</div>
+				</fieldset>
+			</div>
+			<div class="btn-container">
+				<button type="reset">Cancel</button>
+				<button type="submit">Ok</button>
+			</div>
+		</form>
+	</body>
 </html>

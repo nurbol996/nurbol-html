@@ -12,6 +12,11 @@ li{
     border: 1px 
     solid;
 }
+.probasa {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+}
 .auto {
     color: #12dfd4;
      margin-left: auto;
@@ -40,3 +45,16 @@ footer {
 }
 footer {color: blue;
 margin-left: 30%;}
+.ford {
+    display: flex;
+}
+.ford {}
+#elemet {
+    margin-left: 35%;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin-right: 320px;
+}
