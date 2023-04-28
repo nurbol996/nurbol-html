@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  font-size: 3rem;
+}
+h1{
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+}
+.rectangle{
+  margin: 30px auto;
+  width: 500px;
+  height: 300px;
+  background-color: blue;
+  border: 3px solid red;
+}
+@media screen and (min-width: 1201px) {
+  h1 { 
+    margin: 50px auto;
+    color: royalblue;
+    font-size: 2,5rem;
+  }
+.rectangle{
+  width: 450PX;
+  height: 250px;
+  background-color: crimson;
+}  
+}

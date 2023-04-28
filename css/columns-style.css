@@ -1,0 +1,57 @@
+@import './reset.css';
+:root {
+	--main-color: #5f9da0;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	font-family: sans-serif;
+	min-height: 100vh;
+}
+nav{
+  text-align: center;
+  font-size: 40px;
+}
+h1{
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1.2em;
+	text-align: center;
+}
+h1::first-letter{
+	font-size:  1.5em;
+	font-family: serif;
+	color: red;
+}
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100px;
+	background-color: orange;
+}
+.container {
+	flex: 1;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+.page-footer {
+	height: 50px;
+	background-color: orangered;
+}
+.content {
+	column-span: all;
+	columns: 3;
+	column-gap: 20px;
+	column-rule: 1px solid blue
+
+}
+h1 {
+	column-span: all;
+}
